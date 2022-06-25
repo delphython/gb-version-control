@@ -22,8 +22,31 @@ git config --global user.email "email@domain.com"
 git init
 ```
 Данная команда инициализирует локальный репозиторий или превращает каталог, который в настоящее время не находится под версионным контролем в репозиторий Git.
+
 2. Для клонирования существующего репозитория переходим в папку, в которой хотим создать репозиторий и выполняем команду:
 ```bash
 git clone <url>
 ```
 Здесь `url` - ссылка на внешний репозиторий.
+
+## 5. Получение текущей информации о состоянии git
+Для определения, какие файлы в каком состоянии находятся, выполняем команду:
+```bash
+git status
+```
+Если есть какие-либо изменения в каталоге, то команда их покажет:
+```bash
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   git_instruction.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+Если таких изменений нет, то будет следующее сообщение:
+```bash
+On branch main
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+```
