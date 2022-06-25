@@ -49,6 +49,10 @@ no changes added to commit (use "git add" and/or "git commit -a")
 On branch main
 nothing to commit, working tree clean
 ```
+У данной команды есть сокращенный вывод информации:
+```bash
+git status -s
+```
 
 ## 6. Добавление под версионный контроль нового файла (файлов)
 Для того чтобы добавить новый файл (файлы) в следующий коммит, используется команда:
@@ -60,3 +64,5 @@ git add <file>
 ```bash
 git add .
 ```
+
+## 7. 
