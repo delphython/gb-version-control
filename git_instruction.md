@@ -47,6 +47,5 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Если таких изменений нет, то будет следующее сообщение:
 ```bash
 On branch main
-Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 ```
